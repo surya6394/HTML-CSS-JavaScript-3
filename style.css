@@ -1,0 +1,229 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.first{
+  width: 85%;
+  margin-bottom: 1em;
+}
+
+.first .socials{
+  font-size: 12px;
+  color: gray;
+  margin-left: 20em;
+  margin-top: 2em;
+}
+
+.first .socials i{
+  padding-right: 1em;
+}
+
+.first .search{
+  display: flex;
+  float: right;
+  margin-top: -1.4em;
+}
+
+.first .search div{
+  border: 1px solid gray;
+  padding: 3px;
+  margin-right: 15px;
+}
+
+.first .search input[type=text]{
+  margin-right: 5px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.search button{
+  background-color: #eb305b;
+  color: #f2f2f2;
+  padding: 3px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 13px;
+  border: none;
+  cursor: pointer;
+}
+
+header{
+  width: 100%; height: 100vh;
+  background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.4)), url('./sanjoy-sadhukhan-WhE7KK-HPmY-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav{
+  width: 100%; height: 10vh;
+  background: white;
+  color: white; display: flex; justify-content: space-between;
+  align-items: center; text-transform: uppercase;
+}
+
+nav .logo{
+  width: 25%; text-align: right;
+  color: black;
+}
+
+nav .logo img{
+  display: flex;
+  width: 12%;
+  margin-left: 14.5em;
+}
+
+nav h1{
+  margin-top: -1.5em;
+}
+
+nav .menu{
+  display: flex;
+  margin-right: 14em;
+}
+
+nav .menu a{
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  padding-left: 1.5em;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav .menu a:first-child{
+  color: #eb305b;
+}
+
+main{
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; color: white;
+}
+
+section h3{
+  font-size: 17px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section h1{
+  margin: 12px 0 12px 0;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section p{
+  font-size: 14px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
+}
+
+section .button{
+  margin-top: 1.5em;
+}
+
+section .button a{
+  padding: 12px 30px;
+  border-radius: 4px;
+  outline: none;
+  /* text-transform: uppercase; */
+  font-size: 13px;
+  /* font-weight: 500; */
+  text-decoration: none;
+  /* letter-spacing: 1px; */
+  transition: all .5s ease;
+}
+
+section .button{
+  font-weight: bold;
+}
+
+section .button .btnone{
+  background: #eb305b;
+  color: white;
+}
+.button .btnone:hover{
+  background: #fff;
+  color: #eb305b;
+}
+
+section .button .btntwo{
+  background: gray;
+  opacity: 0.5;
+  color: white;
+}
+.button .btntwo:hover{
+  background: #eb305b;
+  opacity: 1;
+  color: #fff;
+}
+
+.row{
+  margin-left: 15em;
+  margin-right: 13em;
+  margin-top: -3em;
+  margin-bottom: 3em;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 0 10px;
+  margin-right: 2em;
+}
+
+.column:nth-child(1){
+  background-color: #e8c140;
+  height: 20vh;
+}
+
+.column:nth-child(2){
+  background-color: #eb305b;
+  height: 20vh;
+}
+
+.column:nth-child(3){
+  background-color: #96d030;
+  height: 20vh;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row .column .first{
+  border-right: 2px solid white;
+  margin-top: 1.5em;
+  padding-left: 0.5em;
+  padding-right: 0.8em;
+}
+
+.row .column .first h3{
+  padding-bottom: 0.7em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: whitesmoke;
+}
+
+.row .column .first p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+}
+
+.row .column h4{
+  display: flex;
+  float: right;
+  margin-top: -4em;
+  margin-left: 0.5em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: whitesmoke;
+  font-size: 14px;
+}
